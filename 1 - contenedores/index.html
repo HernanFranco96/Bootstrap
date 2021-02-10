@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Contenedores</title>
+
+   <style>
+      .container{
+         background-color: peru;
+         margin-top: 20px;
+      }
+      .container-fluid{
+         background-color: cornflowerblue;
+         margin-top: 20px;
+      }
+   </style>
+
+   <!-- CDN DE BOOTSTRAP -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+</head>
+<body>
+
+   <!-- container: Tiene un ancho a los costados-->
+   <div class="container">
+      <h1 class="pb-5">My First Bootstrap Page</h1>
+      <p>This is some text.</p>
+   </div>
+
+   <!-- container-fluid: Ocupa el 100% del ancho disponible  -->
+   <div class="container-fluid">
+      <h1 class="pt-4">My First Bootstrap Page</h1>
+      <p>This is some text.</p>
+   </div>
+
+   <!-- 
+   bg = background
+   text = color
+   -->
+   <div class="container p-3 my-3 bg-success text-white">
+      <h1 class="pt-4">My First Bootstrap Page</h1>
+      <p>This is some text.</p>
+   </div>   
+
+
+   <!-- 
+      Para mas informacion sombre medidas de conteiner 
+      https://www.w3schools.com/bootstrap4/bootstrap_containers.asp 
+   -->
+   <div class="container-xl p-3 my-3 bg-primary text-white">
+      <h1 class="pt-4">My First Bootstrap Page</h1>
+      <p>This is some text.</p>
+   </div>
+
+
+<!--
+   0, 1, 2, 3, 4, 5 y auto 
+
+-----------------------------
+
+   p = padding
+   pt = padding-top
+   pr = padding-right
+   pb = padding-bottom
+   pl = padding-left
+   px = left and right
+   py = top and bottom
+
+-----------------------------
+
+   m = margin
+   mt = margin-top
+   mr = margin-right
+   mb = margin-bottom
+   ml = margin-left
+   mx = left and right
+   my = top and bottom
+
+ -->
+</body>
+</html>
